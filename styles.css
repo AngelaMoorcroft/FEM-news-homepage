@@ -96,6 +96,7 @@ nav ul a{
     width: 90%;
     margin: 0 auto;
     column-gap: 20px;
+    row-gap: 20px;
 }
 
 header{
@@ -108,6 +109,40 @@ main{
     /* background-color: tomato; */
     grid-column-start: span 2;
 }
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 150px 50px;
+}
+
+.title{
+    /* grid-column-start: span 1; */
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px;
+    grid-row-start: span 2;
+    /* display:inline; */
+
+}
+
+.main-text{
+    /* grid-column-start: span 1; */
+    padding: 15px;
+}
+
+button{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    border-color: hsl(5, 85%, 63%);
+
+}
+
 
 aside{
     background-color: black;
@@ -125,8 +160,44 @@ aside h1{
 }
 
 footer{
-    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-color: brown; */
     grid-column-start: span 3;
+    height: auto;
+    column-gap: 9px;
+}
+
+.foot-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 30px 40px 50px;
+    grid-template-columns: 40% 60%;
+
+    /* padding: 20px;
+    margin: 10px; */
+}
+
+.foot-cont img{
+    grid-row-start: span 3;
+    height: 130px;
+    padding-left: 8px;
+    
+}
+
+.foot-cont h2{
+    padding: 10px;
+    color: hsl(233, 8%, 79%);
+    /* margin-bottom: 10px; */
+}
+
+.foot-cont h4{
+    padding: 10px;
+}
+
+.foot-cont h5{
+    padding: 10px;
 }
 
 @media (max-width:768px){
