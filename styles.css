@@ -88,6 +88,12 @@ nav ul a{
     color: black;
 }
 
+nav li:hover{
+    color: grey;
+    cursor: pointer;
+    text-shadow: 1px 1px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -143,6 +149,12 @@ button{
 
 }
 
+button:hover{
+    background-color: grey;
+    border-color: grey;
+    cursor: pointer;
+}
+
 
 aside{
     background-color: black;
@@ -157,6 +169,11 @@ aside{
 aside h1{
     color: hsl(35, 77%, 62%);
     
+}
+
+aside h3:hover{
+    color: grey;
+    cursor: pointer;
 }
 
 footer{
@@ -194,6 +211,12 @@ footer{
 
 .foot-cont h4{
     padding: 10px;
+}
+
+.foot-cont h4:hover{
+    color: grey;
+    text-shadow: 1px 1px;
+    cursor: pointer;
 }
 
 .foot-cont h5{
