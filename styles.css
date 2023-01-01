@@ -128,11 +128,12 @@ main{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-rows: 150px 50px;
+    padding-bottom: 10px;
 }
 
 .title{
     /* grid-column-start: span 1; */
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 800;
     padding: 10px;
     grid-row-start: span 2;
@@ -199,7 +200,7 @@ footer{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-rows: 30px 40px 50px;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
 
     /* padding: 20px;
     margin: 10px; */
