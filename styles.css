@@ -186,6 +186,8 @@ aside h3:hover{
 footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: 15vw;
     /* background-color: brown; */
     grid-column-start: span 3;
     height: auto;
@@ -246,17 +248,5 @@ footer{
         font-size: 2vw;
     }
 
-    
-}
-
-.attribution{
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-
- 
+   
 }
